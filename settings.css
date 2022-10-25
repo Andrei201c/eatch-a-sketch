@@ -27,3 +27,31 @@ body{
   border-radius: 10px;
 }
 
+.buttons {
+  display: inline;
+  margin: 0px;
+  padding: 10px;
+  color:brown;
+  font-style: italic;
+  width: auto;
+  height: auto;
+  text-align: center;
+
+}
+
+.black, .white, .random, .reset, .changeSize {
+  background-color: rgb(162, 131, 90);
+  border: none;
+  padding: 10px;
+  height: auto;
+  border-radius: 20%;
+}
+
+.black:hover, 
+.white:hover, 
+.random:hover,
+.reset:hover,
+.changeSize:hover {
+  background-color: rgb(233, 167, 0);
+  scale: 1.10;
+}
