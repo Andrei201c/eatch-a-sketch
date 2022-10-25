@@ -22,7 +22,7 @@ function createGrid(cols, rows) {
     }
 }
 
-createGrid(200, 200);
+createGrid(150, 150);
 
 function blackColor() {
     const boxs = board.querySelectorAll('.box');
@@ -71,7 +71,7 @@ function randomColor() {
 function changeBoard() {
     changeBtn.addEventListener('click', () => {
         let user = prompt("Enter only a number: ");
-        if(user === null || user <= 1 || user >= 200) {
+        if(user === null || user <= 1 || user >= 150) {
             resetAll();
             createGrid(16, 16);
         } else {
